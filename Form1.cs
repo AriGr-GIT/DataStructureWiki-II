@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace DataStructureWiki_II
 {
-    public partial class Form1 : Form
+    public partial class FormDataStructureWiki : Form
     {
-        public Form1()
+        public FormDataStructureWiki()
         {
             InitializeComponent();
         }
+        List<string> structureList = new List<string>();
+
     }
 }
